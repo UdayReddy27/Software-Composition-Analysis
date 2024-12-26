@@ -1,0 +1,18 @@
+Software Composition Analysis (SCA) Project Summary
+The project involves building an automated SCA tool to scan and analyze open-source dependencies in software projects, identifying vulnerabilities, outdated libraries, and license compliance issues. It integrates with vulnerability databases like CVE and NVD to flag known security risks and provides a dashboard to categorize and prioritize risks based on severity, along with remediation suggestions.
+
+Advanced features include real-time monitoring and alerts for newly discovered vulnerabilities, ensuring teams stay updated. The tool employs AI-powered risk assessment to dynamically evaluate the likelihood and impact of vulnerabilities, enabling informed decision-making. It also integrates seamlessly with SAST and DAST tools to provide comprehensive application security by correlating code issues with dependency vulnerabilities.
+
+Additional functionalities include license compliance checks, dependency tree visualization for better analysis, automated version management to suggest and implement updates, and support for cloud and container scanning. Integration with threat intelligence platforms ensures real-time updates on emerging threats. This project aligns with modern DevSecOps practices to enhance software security and governance.
+
+ 1.Dependency Scanner
+ 2.⁠ ⁠Vulnerability Checker
+ 3.⁠ ⁠License Compliance Checker
+ 4.⁠ ⁠Dependency Tree Visualization
+ 5.⁠ ⁠Dashboard
+ 6.⁠ ⁠Static Application Security Testing (SAST)
+ 7.⁠ ⁠Dynamic Application Security Testing (DAST) - composition analysis
+ 8.⁠ ⁠Real time monitoring - Api
+ 9.⁠ ⁠Cipher Suite Analysis
+10.⁠ ⁠Cloud and container scanning
+11.⁠ ⁠Real time updates on threats

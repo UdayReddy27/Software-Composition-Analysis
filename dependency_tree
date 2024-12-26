@@ -1,0 +1,181 @@
+// Dependency Tree
+digraph {
+	"absl-py"
+	asttokens
+	asttokens -> six
+	astunparse
+	astunparse -> six
+	astunparse -> wheel
+	certifi
+	"charset-normalizer"
+	comm
+	comm -> traitlets
+	contourpy
+	contourpy -> numpy
+	cycler
+	debugpy
+	decorator
+	exceptiongroup
+	executing
+	flask
+	flask -> click
+	flask -> itsdangerous
+	flask -> Jinja2
+	flask -> Werkzeug
+	flatbuffers
+	fonttools
+	gast
+	"google-pasta"
+	"google-pasta" -> six
+	grpcio
+	h5py
+	h5py -> numpy
+	idna
+	ipykernel
+	ipykernel -> comm
+	ipykernel -> debugpy
+	ipykernel -> ipython
+	ipykernel -> "jupyter-client"
+	ipykernel -> "jupyter-core"
+	ipykernel -> "matplotlib-inline"
+	ipykernel -> "nest-asyncio"
+	ipykernel -> packaging
+	ipykernel -> psutil
+	ipykernel -> pyzmq
+	ipykernel -> tornado
+	ipykernel -> traitlets
+	ipython
+	ipython -> backcall
+	ipython -> colorama
+	ipython -> decorator
+	ipython -> exceptiongroup
+	ipython -> jedi
+	ipython -> "matplotlib-inline"
+	ipython -> pickleshare
+	ipython -> "prompt-toolkit"
+	ipython -> pygments
+	ipython -> "stack-data"
+	ipython -> traitlets
+	jedi
+	jedi -> parso
+	joblib
+	jupyter_client
+	jupyter_client -> "jupyter-core"
+	jupyter_client -> "python-dateutil"
+	jupyter_client -> pyzmq
+	jupyter_client -> tornado
+	jupyter_client -> traitlets
+	jupyter_core
+	jupyter_core -> platformdirs
+	jupyter_core -> pywin32
+	jupyter_core -> traitlets
+	keras
+	keras -> "absl-py"
+	keras -> h5py
+	keras -> "ml-dtypes"
+	keras -> namex
+	keras -> numpy
+	keras -> optree
+	keras -> packaging
+	keras -> rich
+	kiwisolver
+	libclang
+	Markdown
+	"markdown-it-py"
+	"markdown-it-py" -> mdurl
+	MarkupSafe
+	matplotlib
+	matplotlib -> contourpy
+	matplotlib -> cycler
+	matplotlib -> fonttools
+	matplotlib -> kiwisolver
+	matplotlib -> numpy
+	matplotlib -> packaging
+	matplotlib -> pillow
+	matplotlib -> pyparsing
+	matplotlib -> "python-dateutil"
+	"matplotlib-inline"
+	"matplotlib-inline" -> traitlets
+	mdurl
+	"ml-dtypes"
+	"ml-dtypes" -> numpy
+	namex
+	"nest-asyncio"
+	numpy
+	"opencv-python"
+	"opencv-python" -> numpy
+	opt_einsum
+	opt_einsum -> numpy
+	optree
+	optree -> "typing-extensions"
+	packaging
+	pandas
+	pandas -> numpy
+	pandas -> "python-dateutil"
+	pandas -> pytz
+	pandas -> tzdata
+	parso
+	pillow
+	platformdirs
+	prompt_toolkit
+	prompt_toolkit -> wcwidth
+	protobuf
+	psutil
+	pure_eval
+	Pygments
+	pyparsing
+	"python-dateutil"
+	"python-dateutil" -> six
+	pytz
+	pyzmq
+	requests
+	requests -> certifi
+	requests -> "charset-normalizer"
+	requests -> idna
+	requests -> urllib3
+	rich
+	rich -> "markdown-it-py"
+	rich -> pygments
+	rich -> "typing-extensions"
+	"scikit-learn"
+	"scikit-learn" -> joblib
+	"scikit-learn" -> numpy
+	"scikit-learn" -> scipy
+	"scikit-learn" -> threadpoolctl
+	scipy
+	scipy -> numpy
+	seaborn
+	seaborn -> matplotlib
+	seaborn -> numpy
+	seaborn -> pandas
+	six
+	"stack-data"
+	"stack-data" -> asttokens
+	"stack-data" -> executing
+	"stack-data" -> "pure-eval"
+	tensorboard
+	tensorboard -> "absl-py"
+	tensorboard -> grpcio
+	tensorboard -> markdown
+	tensorboard -> numpy
+	tensorboard -> packaging
+	tensorboard -> protobuf
+	tensorboard -> setuptools
+	tensorboard -> six
+	tensorboard -> "tensorboard-data-server"
+	tensorboard -> werkzeug
+	"tensorboard-data-server"
+	tensorflow
+	tensorflow -> "tensorflow-intel"
+	"tensorflow-io-gcs-filesystem"
+	termcolor
+	threadpoolctl
+	tornado
+	traitlets
+	tzdata
+	urllib3
+	wcwidth
+	Werkzeug
+	Werkzeug -> MarkupSafe
+	wrapt
+}
